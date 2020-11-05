@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T13:08:45.074Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="kZKGbywhxz5tLnN8TF-g" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T13:22:48.106Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="DsbBPwHoFQtaXFE3ys1r" version="13.9.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1185" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="948" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,6 +13,26 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="f?url=bitbucket.org/repo" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-185" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaHfIqqFc2BpRlaO5jcB-59" value="" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.292;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.083;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-180" y="490" as="sourcePoint" />
+            <mxPoint x="-90" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="200" />
+              <mxPoint x="60" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaHfIqqFc2BpRlaO5jcB-60" value="" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.292;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.083;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="290.15999999999997" as="sourcePoint" />
+            <mxPoint x="83.31999999999994" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="290" />
+              <mxPoint x="60" y="330" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Che-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
