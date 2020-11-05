@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T10:41:34.703Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="fsrn12EHsO1hR6JgHry9" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T10:45:46.517Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="FApzz0JhPz9_ri392xdP" version="13.9.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="395" dy="213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Dashboard" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="240" y="80" width="100" height="520" as="geometry" />
+          <mxGeometry x="230" y="60" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="40" y="70" width="40" height="450" as="geometry" />
+          <mxGeometry x="40" y="60" width="40" height="450" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="f?url=bitbucket.org/repo" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -16,10 +16,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Che-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="550" y="80" width="220" height="540" as="geometry" />
+          <mxGeometry x="550" y="60" width="220" height="540" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry y="70" width="220" height="480" as="geometry" />
+          <mxGeometry y="60" width="220" height="480" as="geometry" />
         </mxCell>
         <mxCell id="RaHfIqqFc2BpRlaO5jcB-7" value="&lt;div&gt;&lt;span&gt;1) Find correct resolver&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2) Try resolve. Got 403..&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;3) Request OAuth token from KK&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;size=50;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="20" y="80" width="180" height="50" as="geometry" />
@@ -33,13 +33,13 @@
         <mxCell id="RaHfIqqFc2BpRlaO5jcB-26" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="100" y="170" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="RaHfIqqFc2BpRlaO5jcB-28" value="Construct Login URL" style="html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="RaHfIqqFc2BpRlaO5jcB-28" value="Construct Login URL&lt;br&gt;....&amp;amp;redirect_after_login=&lt;br&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;/factory/resolver/f?url=.....&lt;/span&gt;" style="html=1;align=center;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="20" y="200" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RaHfIqqFc2BpRlaO5jcB-33" value="" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="0.2941" y="-10" relative="1" as="geometry">
-            <mxPoint x="150" y="280" as="sourcePoint" />
-            <mxPoint y="280" as="targetPoint" />
+            <mxPoint x="90" y="269.66" as="sourcePoint" />
+            <mxPoint y="269.66" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -49,16 +49,16 @@
             <mxPoint x="50" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RaHfIqqFc2BpRlaO5jcB-40" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.187;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" source="RaHfIqqFc2BpRlaO5jcB-16" target="3nuBFxr9cyL0pnOWT2aG-6">
+        <mxCell id="RaHfIqqFc2BpRlaO5jcB-40" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.205;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" source="RaHfIqqFc2BpRlaO5jcB-16" target="3nuBFxr9cyL0pnOWT2aG-6">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-30" y="200" as="sourcePoint" />
             <mxPoint x="50" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="REST /factory/resolver/f?url=bitbucket.org/repo" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.001;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="REST /factory/resolver/f?url=bitbucket.org/repo" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="275" y="160" as="sourcePoint" />
-            <mxPoint x="550" y="158" as="targetPoint" />
+            <mxPoint x="550" y="160" as="targetPoint" />
             <Array as="points">
               <mxPoint x="420" y="160" />
             </Array>
@@ -67,14 +67,17 @@
         <mxCell id="RaHfIqqFc2BpRlaO5jcB-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="130" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RaHfIqqFc2BpRlaO5jcB-24" value=" Return factory  " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-2">
+        <mxCell id="RaHfIqqFc2BpRlaO5jcB-24" value=" Return factory  " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.006;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2">
           <mxGeometry x="0.2941" y="-10" relative="1" as="geometry">
             <mxPoint x="550" y="240" as="sourcePoint" />
             <mxPoint x="350" y="240" as="targetPoint" />
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="510" y="220" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RaHfIqqFc2BpRlaO5jcB-30" value="  Return 302 redirect Login URL " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.125;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.001;exitY=0.436;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2">
+        <mxCell id="RaHfIqqFc2BpRlaO5jcB-30" value="  Return 302 redirect Login URL " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.018;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.001;exitY=0.436;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2">
           <mxGeometry x="0.1794" y="-29" relative="1" as="geometry">
             <mxPoint x="550" y="370" as="sourcePoint" />
             <mxPoint x="350" y="370" as="targetPoint" />
@@ -96,6 +99,12 @@
         </mxCell>
         <mxCell id="RaHfIqqFc2BpRlaO5jcB-38" value="BitBucket OAuth" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="400" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RaHfIqqFc2BpRlaO5jcB-42" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.453;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RaHfIqqFc2BpRlaO5jcB-28">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="470" y="250" as="sourcePoint" />
+            <mxPoint x="642" y="330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
