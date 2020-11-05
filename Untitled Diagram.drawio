@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T12:44:16.274Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="hy8uHLk5fA0n4gCnFDLd" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T13:08:45.074Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="kZKGbywhxz5tLnN8TF-g" version="13.9.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1185" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Dashboard" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="230" y="60" width="100" height="520" as="geometry" />
+          <mxGeometry x="230" y="60" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="40" y="60" width="40" height="450" as="geometry" />
+          <mxGeometry x="40" y="60" width="40" height="480" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="f?url=bitbucket.org/repo" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -62,6 +62,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RaHfIqqFc2BpRlaO5jcB-50" value="&amp;nbsp;Detect provider and construct (or request) authentication URL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;size=50;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="20" y="240" width="180" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="REST /factory/resolver/f?url=bitbucket.org/repo" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="275" y="160" as="sourcePoint" />
@@ -95,7 +98,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RaHfIqqFc2BpRlaO5jcB-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="380" y="390" width="10" height="80" as="geometry" />
+          <mxGeometry x="390" y="390" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RaHfIqqFc2BpRlaO5jcB-36" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="RaHfIqqFc2BpRlaO5jcB-35" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2">
           <mxGeometry relative="1" as="geometry">
@@ -110,7 +113,7 @@
         <mxCell id="RaHfIqqFc2BpRlaO5jcB-38" value="BitBucket OAuth" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="400" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="RaHfIqqFc2BpRlaO5jcB-43" value="Repeat initial request" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=-0.034;exitY=0.773;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2">
+        <mxCell id="RaHfIqqFc2BpRlaO5jcB-43" value="Repeat initial request" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="190" y="470" as="sourcePoint" />
             <mxPoint x="270" y="159.66" as="targetPoint" />
@@ -124,6 +127,14 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="313" y="301" as="sourcePoint" />
             <mxPoint x="500" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaHfIqqFc2BpRlaO5jcB-51" value="&amp;nbsp;200 OK, auth link in body&amp;nbsp;&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="0.0678" y="-10" width="80" relative="1" as="geometry">
+            <mxPoint x="550" y="349.58" as="sourcePoint" />
+            <mxPoint x="310" y="350" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
